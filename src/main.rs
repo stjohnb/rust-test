@@ -1,17 +1,12 @@
 
 fn main() {
-    // let i = 13u8;
-    // let b = 0b11_1000;
-    // let h = 0xf5;
-    // let f1 = 1 / 3;
-    // let f2 = 1.0 / 3;
-    // let f3 = 1 / 3.0;
-    let f4: f32 = 1.0 / 3.0;
-    let f5: f64 = 1.0 / 3.0;
+    let a: [i32; 5] = [1, 2, 3, 4, 5];
 
-    let f6: f64 = f4.into();
-    // let f7: f32 = f5;
+    let i = 13;
 
+    println!("a: {:?}", a);
+    println!("i: {}", i);
+    println!("a[4]: {}", a[4]);
+    println!("a[i]: {}", a[i]);
 
-    println!("i: {}, {}, {}", f4, f5, f6);
 }
