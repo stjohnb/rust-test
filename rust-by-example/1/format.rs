@@ -26,7 +26,8 @@ impl Display for City {
 struct Color {
     red: u8,
     green: u8,
-
+    blue: u8,
+}
 
 impl Display for Color {
   // `f` is a buffer, and this method must write the formatted string into it.

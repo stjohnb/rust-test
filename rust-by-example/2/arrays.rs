@@ -55,7 +55,3 @@ fn main() {
     // Out of bound indexing on slice causes runtime error.
     //println!("{}", xs[..][5]);
 }
-avg:jvm.gc.minor_collection_count{
-  (env:test AND region:us-west-2) 
-  AND service:activation-service 
-  AND runtime-id:259954db-c1b0-4fc5-ba27-d46f167a6d8d}
