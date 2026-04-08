@@ -5,4 +5,3 @@ authors = ["brend"]
 edition = "2018"
 
 [dependencies]
-rand = "0.3.14"
