@@ -17,5 +17,5 @@ fn main() {
   let doubles = double_positives(&singles);
   let ds = d_ps(&singles);
   assert_eq!(doubles.collect::<Vec<i32>>(), vec![4, 6]);
-  assert_eq!(ds.collect::<Vec<i32>>(), vec![4, 2]);
+  assert_eq!(ds.collect::<Vec<i32>>(), vec![4, 6]);
 }
