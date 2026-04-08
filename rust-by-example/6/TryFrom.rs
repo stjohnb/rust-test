@@ -29,6 +29,5 @@ fn main() {
     let result: Result<EvenNumber, ()> = 5i32.try_into();
     assert_eq!(result, Err(()));
     let result: Result<EvenNumber, ()> = EvenNumber::try_from(7i32);
-
-    // println!("Result: {}", result);
+    assert_eq!(result, Err(()));
 }

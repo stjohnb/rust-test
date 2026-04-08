@@ -3,7 +3,7 @@ macro_rules! say_hello {
   // `()` indicates that the macro takes no argument.
   ($name:expr) => {
       // The macro will expand into the contents of this block.
-      println!("Hello!")
+      println!("Hello, {}!", $name)
   };
 }
 
